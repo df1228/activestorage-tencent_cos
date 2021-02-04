@@ -9,7 +9,9 @@ module ActiveStorage
       @config = config
     end
 
-    def upload(key, io, checksum: nil)
+    # https://github.com/rails/rails/issues/34551
+    def upload(key, io, checksum: nil, **)
+      puts "not implmented, there is no offical tencent cos ruby sdk yet"
       raise NotImplementedError
     end
 
