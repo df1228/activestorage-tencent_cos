@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.files        = Dir['README.md', 'lib/**/*']
   s.require_path = 'lib'
 
-  s.add_dependency 'activestorage', '~> 5.2'
+  s.add_dependency 'activestorage', '~> 6.0'
 end
